@@ -1,0 +1,646 @@
+Execution Stack: 
+(a Ref(int);(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))))
+v int
+
+Symbol Table: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(a Ref(int);(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))))
+
+Symbol Table: 
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))))
+a Ref(int)
+
+Symbol Table: 
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))))
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))
+v=Integer Value:10
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))
+Allocated : ( a, Integer Value:22 )
+
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a)))))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+print(Heap read: (a))
+print(v)
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(v=Integer Value:32;(print(v);print(Heap read: (a))))
+In heap: (a , Integer Value:30)
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+print(Heap read: (a))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(v=Integer Value:32;(print(v);print(Heap read: (a))))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+v=Integer Value:32
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+print(Heap read: (a))
+print(v)
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+print(Heap read: (a))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+Integer Value:32
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+Integer Value:32
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(a Ref(int);(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))))
+v int
+
+Symbol Table: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(a Ref(int);(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))))
+
+Symbol Table: 
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))))
+a Ref(int)
+
+Symbol Table: 
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(v=Integer Value:10;(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))))
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))
+v=Integer Value:10
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(Allocated : ( a, Integer Value:22 )
+;(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a)))))
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))
+Allocated : ( a, Integer Value:22 )
+
+
+Symbol Table: 
+key: a value:RefValue( 0,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+
+Execution Stack: 
+(fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+;(print(v);print(Heap read: (a))))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+fork( (In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a))))) )
+
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(In heap: (a , Integer Value:30);(v=Integer Value:32;(print(v);print(Heap read: (a)))))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+print(Heap read: (a))
+print(v)
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+(v=Integer Value:32;(print(v);print(Heap read: (a))))
+In heap: (a , Integer Value:30)
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:22
+
+Execution Stack: 
+print(Heap read: (a))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(v=Integer Value:32;(print(v);print(Heap read: (a))))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+v=Integer Value:32
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:10
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+(print(v);print(Heap read: (a)))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+print(Heap read: (a))
+print(v)
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+print(Heap read: (a))
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+Integer Value:32
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
+Execution Stack: 
+
+Symbol Table: 
+key: a value:RefValue( 1,int)
+key: v value:Integer Value:32
+
+Out: 
+Integer Value:10
+Integer Value:30
+Integer Value:32
+Integer Value:30
+
+FileTable: 
+
+Heap: 
+address: 1 value:Integer Value:30
+
